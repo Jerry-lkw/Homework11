@@ -1,8 +1,8 @@
-a=0
-n=0
-n=int(input(n))
-for a in range(1,n+1):
-    if(a%2==0):
-        print(a,"號同學為雙數組")
-    else:
-        print(a,"號同學為單數組")
+def split_students(n):
+    for a in range(1, n + 1):
+        if a % 2 == 0:
+            print(a, "號同學為雙數組")
+        else:
+            print(a, "號同學為單數組")
+n=int(input("共幾人"))
+split_students(n)
