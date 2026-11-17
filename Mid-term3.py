@@ -8,6 +8,6 @@ def fx2(n, gn):
                 print(f'{i+1}號是第{j+1}組')
         true+=1
 #fx2(15,4)
-a=int(input("共幾人"))
-b=int(input("共幾組"))
-fx2(a,b)
+n=int(input("共幾人"))
+gn=int(input("共幾組"))
+fx2(n,gn)
